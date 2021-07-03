@@ -18,3 +18,6 @@
 - BigInt
 
 ## Section 10
+
+## Section 11 JS Features
+
