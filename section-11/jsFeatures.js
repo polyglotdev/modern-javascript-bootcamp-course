@@ -50,3 +50,14 @@ const restResult = fullName('Elijah', 'Hallan', 'M.D.', 'Ph.D.')
 console.log(restResult)
 
 // destructuring - array
+const [a, b, c, d] = [1, 2, 3, 4]
+console.log(a, b, c, d)
+
+const nbaMvpVotingResults = [
+  'Kobe Bryant',
+  'LeBron James',
+  'Carmelo Anthony',
+  'Dwight Howard',
+]
+const [Mamba, King, Melo, Superman] = nbaMvpVotingResults
+console.log(Mamba, King, Melo, Superman)
