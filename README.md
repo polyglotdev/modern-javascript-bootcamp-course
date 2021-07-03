@@ -16,3 +16,5 @@
 - Undefined: I can see the variable but can't see the value
 - Symbol
 - BigInt
+
+## Reduce
