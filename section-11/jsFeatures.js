@@ -61,3 +61,35 @@ const nbaMvpVotingResults = [
 ]
 const [Mamba, King, Melo, Superman] = nbaMvpVotingResults
 console.log(Mamba, King, Melo, Superman)
+
+// destructuring - object
+const { firstName, team, points } = {
+  firstName: 'Elijah',
+  team: 'Lakers',
+  points: '24',
+}
+console.log(firstName, team, points)
+
+// nested destructuring
+// const {
+//   firstName: { first, last },
+//   team,
+//   points,
+// } = {
+//   firstName: { first: 'Elijah', last: 'Hallan' },
+//   team: 'Lakers',
+//   points: '24',
+// }
+// console.log(first, last, team, points)
+
+// parameter destructuring
+function getFullName({ firstName, lastName }) {
+  return firstName + ' ' + lastName
+}
+
+const paramDestResult = getFullName({
+  firstName: 'Elijah',
+  lastName: 'Hallan',
+  jerseyNumber: 23,
+})
+console.log(paramDestResult)
