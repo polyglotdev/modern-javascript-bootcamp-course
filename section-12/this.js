@@ -9,3 +9,11 @@ const me = {
 }
 
 console.log(me.getThis())
+
+function greet(name) {
+  console.log(`Hello ${name}`)
+  console.log(this)
+}
+
+const greetResult = greet('Dom')
+console.log(greetResult)
