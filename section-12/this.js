@@ -21,3 +21,11 @@ function greet(name) {
 
 const greetResult = greet('Dom')
 console.log(greetResult)
+
+const listKids = (kids) => {
+  for (const kid of kids) {
+    console.log(kid)
+  }
+}
+
+const listKidsResults = listKids(['Elijah', 'Ezra'])
