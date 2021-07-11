@@ -3,13 +3,19 @@ const annoyer = {
   pickPhrase: () =>
     this.phrases[Math.floor(Math.random() * this.phrases.length)],
   start() {
-    const annoy = setInterval(() => {
+    this.timerId = setInterval(() => {
       this.randomPhrase = this.phrases[
         Math.floor(Math.random() * this.phrases.length)
       ]
       console.log(this.randomPhrase)
     }, 1000)
   },
+  stop() {
+    clearInterval(this.timerId)
+  },
 }
 
 annoyer.start()
+console.log(annoyer)
+annoyer.stop()
+console.log(annoyer)
