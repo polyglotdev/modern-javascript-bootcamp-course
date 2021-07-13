@@ -102,6 +102,7 @@ for (let game of warriorsGames) {
 
   const warriors = homeTeam.team === 'Golden State' ? homeTeam : awayTeam
   gameLi.classList.add(warriors.isWinner ? 'win' : 'loss')
+
   gameLi.innerHTML = `${teamsNames} - ${scoreLine}`
   ulParent.appendChild(gameLi)
 }
