@@ -12,3 +12,11 @@
   margin: 0 auto;
   display: block;
 }
+
+.win {
+  background-color: hsla(120, 100%, 50%, 0.3);
+}
+
+.loss {
+  background-color: hsla(0, 100%, 50%, 0.3);
+}
